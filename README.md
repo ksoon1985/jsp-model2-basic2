@@ -1,7 +1,7 @@
 # jsp-model2-basic2
 
-jsp-model2-basic 프로젝트에서 
-게시판 로직들을 모두 서블릿으로 변경 
+[jsp-model2-basic](https://github.com/ksoon1985/jsp-model2-basic)  프로젝트에서   
+게시판 로직들을 모두 서블릿으로 변경
 
 ## java
 * board
