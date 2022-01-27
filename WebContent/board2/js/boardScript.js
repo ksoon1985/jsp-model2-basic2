@@ -21,14 +21,16 @@ function sendData(){
   }
 } 
 function pwCheck(s){
-      window.name = "parentForm";
-	    if(s=='u'){
-			document.parentForm.action='updateForm.do';  
-		 }else if(s=='d'){
-			 
-			document.parentForm.action='deletePro.do'  
-		 }
-    openWin=window.open("/jspEx/board2/idCheck.jsp", "idCheck",
+	
+    window.name = "parentForm";
+     
+	if(s=='u'){
+		document.parentForm.action='updateForm.do';  
+	}else if(s=='d'){
+		document.parentForm.action='delete.do'  
+	}
+	    
+    openWin=window.open("/board2/idCheck.jsp", "idCheck",
     		"width=500, height=200, toolbar=no, location=no, menubar=no, resizable = no, scrollbars = no");
  }
      
